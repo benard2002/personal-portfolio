@@ -40,6 +40,14 @@
   .about-pic{
     width: 200px;
   }
+
+
+  /* EXPERIENCE SECTION */
+  .experience-container{
+    flex-direction: column;
+    gap: 2rem;
+
+  }
 }
 @media (max-width:768px) {
   .profile-wrap{

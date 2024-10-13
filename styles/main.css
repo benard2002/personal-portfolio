@@ -70,6 +70,7 @@ section{
 }
 #profile{
   height: 80vh;
+  
 }
 .profile-wrap ,.profile-details-wrap,.profile-links{
   display: flex;
@@ -77,7 +78,7 @@ section{
 }
 .profile-wrap{
   justify-content: center;
-  
+  margin-top: 2rem;
 }
 .profile-img-wrap{
   width: 400px; 
@@ -106,8 +107,11 @@ section{
 .title{
   font-size: 2rem;
 }
-#profile .profession{
+.profession{
   font-size: 1.8rem;
+}
+#profile .icon{
+  cursor: pointer;
 }
 .icon{
   width: 40px;
@@ -182,7 +186,7 @@ section{
   margin-bottom: 1rem;
 }
 .experience-wrap{
-  border: 2px solid gray;
+  border: 0.1rem solid rgb(181, 181, 181);
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
@@ -192,5 +196,41 @@ section{
 .note{
   color: black;
   font-weight: bold;
+}
+
+
+#experience{
+  height: 90vh;
+  margin-top: 1rem;
+  height: fit-content;
+}
+#experience .heading,.title{
+  text-align: center;
+}
+.experience-container{
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+#experience .experience-wraps{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  
+ 
+}
+.experience-details-wrap{
+  border: 0.1rem solid rgb(181, 181, 181);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.experience-details-wrap .profession{
+  margin-bottom: 1rem;
+}
+.experience-wraps .items{
+  display: flex;
+  gap: 10px;
+  
 }
 
