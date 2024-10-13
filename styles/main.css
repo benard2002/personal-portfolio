@@ -279,3 +279,36 @@ section{
 
 
 
+/* Contact Section */
+#contact{
+  height: 80vh;
+  min-height: fit-content;
+  margin-top: 2rem;
+}
+#contact .heading{
+  text-align: center;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.contact-wrap{
+  display: flex;
+  gap: 2rem;
+  border:0.1rem solid rgb(161, 161, 161);
+  border-radius: 20px;
+  padding: 20px;
+}
+.contact-wrap .detail{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width:500px){
+  .contact-wrap{
+    flex-direction: column;
+  }
+}
