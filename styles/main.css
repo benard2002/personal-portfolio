@@ -281,9 +281,9 @@ section{
 
 /* Contact Section */
 #contact{
-  height: 80vh;
+  height: 50vh;
   min-height: fit-content;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 #contact .heading{
   text-align: center;
@@ -310,5 +310,6 @@ section{
 @media (max-width:500px){
   .contact-wrap{
     flex-direction: column;
+    justify-content: center;
   }
 }
