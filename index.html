@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/queries.css">
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        Portfolio
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-link"><a href="./#about">ABOUT</a></li>
+        <li class="nav-link"><a href="./#experience">EXPERIENCE</a></li>
+        <li class="nav-link"><a href="./#projects">PROJECTS</a></li>
+        <li class="nav-link"><a href="./#projects">CONTACT</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="profile-wrap">
+        <div class="profile-img-wrap">
+          <img src="./images/IMG_0112.jpg" alt="profile-pic" class="profile-pic">
+        </div>
+        <div class="profile-details-wrap">
+          <p>Hello I'm</p>
+          <h1 class="title">Bernard</h1>
+          <p class="profession">Fullstack Developer</p>
+          
+          
+          <div class="profile-buttons">
+            <button class="btn left" onclick="window.open('resume-example.pdf')">
+              Download Cv  
+            </button>
+            <button class="btn right" >
+              Contact Info
+            </button>
+          </div>
+
+          <div class="profile-links">
+            <img src="./icons/github.png" alt="github" class="icon">
+            <img src="./icons/linkedin.png" alt="github" class="icon">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+        <p>Get To Know More</p>
+        <h2 class="title">About Me</h2>
+      <div class="about-wrap">
+          <div class="about-img-wrap">
+
+            <img src="./images/myself.jpg" alt="me" class="about-pic">
+          </div>
+        <div class="about-details">
+          <div class="experience-details">
+            <div class="experience-wrap">
+              <img src="./icons/experience.png" alt="education" class="icon">
+              <h3 class="title">Experience</h3>
+              <p>2+ years</p>
+              <p>Fullstack Development</p>
+            </div>
+            <div class="experience-wrap">
+              <img src="./icons/education.png" alt="education" class="icon">
+              <h3 class="title">Education</h3>
+              <p>B.Sc. Bachelor Degree</p>
+            </div>
+          </div>
+          <p>I'm a passionate <span class="note">web developer</span> with a knack for creating intuitive, responsive applications. With a background in <span class="note">electrical engineering</span>, I bring problem-solving skills and attention to detail into every project. Currently focused on mastering <span class="note">frontend development</span>, <span class="note">backend technologies</span>, and expanding my expertise in <span class="note">Python and Node.js</span>. I'm always eager to learn and build innovative solutions.</p>
+        </div>
+      </div>
+
+    </section>
+      
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
