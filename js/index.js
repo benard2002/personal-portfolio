@@ -25,7 +25,9 @@ const details = [{
 },{
   name : "WEATHER APPLICATION",
   description :"A Weather app providing data on chances of rain tomorrow.",
-  image: "weather.png"
+  image: "weather.png",
+  live : "https://weather-app-r5fk.onrender.com",
+  github: "https://github.com/benard2002/weather-app"
 },{
   name : "BLOG APP",
   description :"A blog app for writing blogs.",
@@ -56,5 +58,5 @@ details.forEach(k =>{
         </div>
   
   `
-  console.log(k.name)
+  
 })
